@@ -1,1 +1,28 @@
 /* Add your CSS here */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+
+img {
+	width: 80%;
+	height: 80%;
+	padding: 25px;
+}
+
+.fContainer {
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.block {
+	padding: 25px;
+	display: flex;
+}
