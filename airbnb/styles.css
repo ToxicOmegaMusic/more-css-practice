@@ -17,7 +17,8 @@ input {
 	margin-bottom: 25px;
 }
 
-input[type="text"], input[type="submit"], input[type="number"] {
+input[type="text"], input[type="submit"], input[type="number"], input[type="date"] {
+	height: 40px;
 	width: 100%;
 }
 
